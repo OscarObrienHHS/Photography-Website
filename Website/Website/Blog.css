@@ -1,0 +1,71 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.Sidebar {
+    height: 100%; 
+    width: 15vw; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    color:rgb(36, 77, 119);
+    overflow-x: hidden; 
+    float: left;
+    text-decoration: none;
+    border: 0.2vw solid rgb(255, 255, 255);
+    background-image: url("IMG_5174_2.jpg");
+    z-index: 2;
+}
+h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+ul{
+    text-align: left;
+    padding-left: 0.2vw;
+    list-style-type: none;
+    padding: 20px 10px 20px 10px;
+}
+li{
+    color: rgb(36, 77, 119);
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 0.5vw;
+}
+.Blogposts{
+    text-decoration: none;
+    float: right;
+    width: 84.8vw;
+    height: 100%
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 0.8vw;
+    text-align: center;
+    text-transform: initial;
+    padding: 0.4vw;
+    margin: 0;
+}
+h2{
+    text-align: left;
+    font-size: 1.4vw;
+    padding: 1vw;
+    margin: 0;
+}
+.Blogpost{
+    color: white;
+    text-transform: initial;
+    background-color: rgb(36, 77, 119);
+    z-index: 0;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
